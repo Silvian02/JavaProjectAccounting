@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AccountingSoftware:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AccountingSoftware_jar</output-path>
+    <root id="archive" name="AccountingSoftware.jar">
+      <element id="module-output" name="AccountingSoftware" />
+      <element id="archive" name="archive.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
